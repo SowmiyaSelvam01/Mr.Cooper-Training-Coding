@@ -16,7 +16,7 @@ class HouseRental:
         return True
     
         
-class Owner():
+class Owner:
     
     def post_house(self):
         house={}
@@ -49,7 +49,7 @@ class Owner():
 
 
 
-class Tenant():
+class Tenant:
     
     def rent_request(self):
         self.available_houses()
