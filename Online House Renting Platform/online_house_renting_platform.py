@@ -16,7 +16,7 @@ class HouseRental:
         return True
     
         
-class Owner(userType):
+class Owner():
     
     def post_house(self):
         house={}
@@ -49,7 +49,7 @@ class Owner(userType):
 
 
 
-class Tenant(userType):
+class Tenant():
     
     def rent_request(self):
         self.available_houses()
@@ -119,4 +119,4 @@ class userType(HouseRental,Owner,Tenant):
 if __name__=="__main__":
     x=userType()
     x.options()
-    
+     
